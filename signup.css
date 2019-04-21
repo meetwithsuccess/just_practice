@@ -1,0 +1,27 @@
+body {
+  width: 960px;
+}
+.login_form {
+  width: 480px;
+  padding-left: 200px;
+  border: dashed 2px #5b8bd0;
+}
+.user_Name,  .login_Pass{
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.user_Name, .login_Pass {
+  float: left;
+  clear: both;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+p {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
